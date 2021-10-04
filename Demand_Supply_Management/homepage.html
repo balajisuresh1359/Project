@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home page...</title>
+	<style>
+		#add_btn,
+		#update_btn,
+		#delete_btn,
+		#search_btn,
+		#view_btn{
+			width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-weight: bolder;
+            height: 2em;
+            border-radius: 0.5em;
+            cursor: pointer;
+            /*background-color: #5cf;*/
+            /*padding-top: 0.2em;*/
+            text-align: center;
+		}
+
+		#add_btn:hover,
+		#update_btn:hover,
+		#delete_btn:hover,
+		#search_btn:hover
+		{
+			 
+			color: #000;
+		}
+		#view_btn{
+			background-color: #5cf;
+			color: #000;
+		}
+		#view_btn:hover{
+			background-color: green;
+			color: #FFF;
+		}
+		.flex-box{
+			display: flex;
+			align-content: space-between;
+			/*background-color: lightblue;*/
+		}
+		.left{
+			background-color: #FFF;
+			padding: 1em;
+			width: 50%;
+
+		}
+		.right{
+			background-color: #fff;
+			padding: 1em;
+			border-left: solid;
+			/*border-left-width: :1em;*/
+			width: 50%;
+		}
+		body{
+            background: linear-gradient(to bottom,#ADD8E6,#FFF);
+        }
+	</style>
+</head>
+<body >
+ <h1 style="text-align: center;margin: 1.5em"> Admin </h1>
+ <hr>
+ <div class="flex-box">
+ 	<div class="left">
+ <form  class="Home_main"><br>
+ 	<a href="add_location_in.html"  target="_blank"><b><u>Add location</u></b></a><br>
+ </form>
+ <form  class="Home_main"><br>
+ 	<a href="add_service_in.html"  target="_blank"><b><u>Add Service</u></b></a><br>
+ 
+ <form  class="Home_main"><br>
+ 	<a href="add_product_in.html"  target="_blank"><b><u>Add Product</u></b></a><br>
+ </form>
+ <form  class="Home_main"><br>
+ 	<a href="delete_location_in.html"  target="_blank"><b><u>Remove location</u></b></a><br>
+ </form>
+ <form  class="Home_main"><br>
+ 	<a href="delete_product_in.html"  target="_blank"><b><u>Delete Product</u></b></a><br>
+ </form>
+  <form  class="Home_main"><br>
+ 	<a href="delete_service_in.html"  target="_blank"><b><u>Delete Service</u></b></a><br>
+ </form>
+<form  class="Home_main"><br>
+ 	<a href="viewFeedback"  target="_blank"><b><u>View feedbacks</u></b></a><br>
+ </form>
+ </form>
+ <form  class="Home_main"><br>
+ 	<a href="add_project.html"  target="_blank"><b><u>Add Upcoming projects</u></b></a><br>
+ </form>
+
+ <br>
+ <div style="text-align: center;">
+ <a href="adminlogin.html"><b><u>Logout</u></b></a>
+</div>
+</div>
+<div class="right">
+	<img src="https://cdn.pixabay.com/photo/2017/01/31/22/06/boy-2027615__340.png" alt="img">
+</div>
+</div>
+</body>
+</html>

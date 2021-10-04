@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Admin login</title>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <style>
+        .form{
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 10%;
+            /* margin-bottom: 45%; */
+        }
+        #btn{
+            width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+            font-weight: bolder;
+            height: 2em;
+            border-radius: 0.5em;
+            cursor: pointer;
+            background-color: #5cf;
+        }
+        #btn:hover{
+            background-color: green;
+            color: #FFF;
+        }
+        body{
+            background: linear-gradient(to bottom,#ADD8E6,#FFF);
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;font-weight: bolder;font-size: 6em;">Login</h1>
+    <hr>
+    <form class="form" action="admin_login">
+        <fieldset>
+        <legend >Form:</legend>
+        <h3>Username :</h3>
+        <input type="text" name="username" list="username1" id="username" placeholder="Your answer..">
+        <p id="uv"></p>
+         <datalist id="username1" >
+                            <option value="batman">
+                            <option value="superman">
+                            <option value="panter">
+                            <option value="thanos">
+                            <option value="wolverine">
+         </datalist>
+        <h3>Password :</h3>
+        <input type="password" name="password" id="password" placeholder="Your answer.."><br><br>
+        <input type="submit" id="btn" name="submit" value="login" >
+        </fieldset>
+    </form>
+</body>
+</html>

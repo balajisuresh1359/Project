@@ -1,0 +1,285 @@
+<web-app>
+<welcome-file-list>
+	<welcome-file>masterlogin.html</welcome-file>
+</welcome-file-list>
+<servlet>
+   <servlet-name>businessmen_login</servlet-name>
+   <servlet-class>businessmen_login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>businessmen_login</servlet-name>
+   <url-pattern>/businessmen_login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>gethelpnumber</servlet-name>
+   <servlet-class>gethelpnumber</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>gethelpnumber</servlet-name>
+   <url-pattern>/gethelpnumber</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>public_login</servlet-name>
+   <servlet-class>public_login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>public_login</servlet-name>
+   <url-pattern>/public_login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>change_public_pwd</servlet-name>
+   <servlet-class>change_public_pwd</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>change_public_pwd</servlet-name>
+   <url-pattern>/change_public_pwd</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>add_public</servlet-name>
+   <servlet-class>add_public</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>add_public</servlet-name>
+   <url-pattern>/add_public</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>feedbackH</servlet-name>
+   <servlet-class>feedbackH</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>feedbackH</servlet-name>
+   <url-pattern>/feedbackH</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+   <servlet-name>resetbpwd</servlet-name>
+   <servlet-class>resetbpwd</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>resetbpwd</servlet-name>
+   <url-pattern>/resetbpwd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>add_businessmen</servlet-name>
+   <servlet-class>add_businessmen</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>add_businessmen</servlet-name>
+   <url-pattern>/add_businessmen</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>see_location</servlet-name>
+   <servlet-class>see_location</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>see_location</servlet-name>
+   <url-pattern>/see_location</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>BHistory</servlet-name>
+   <servlet-class>BHistory</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>BHistory</servlet-name>
+   <url-pattern>/BHistory</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>claim_location</servlet-name>
+   <servlet-class>claim_location</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>claim_location</servlet-name>
+   <url-pattern>/claim_location</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>show_history</servlet-name>
+   <servlet-class>show_history</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>show_history</servlet-name>
+   <url-pattern>/show_history</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>delete_claim</servlet-name>
+   <servlet-class>delete_claim</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>delete_claim</servlet-name>
+   <url-pattern>/delete_claim</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>remove_claim</servlet-name>
+   <servlet-class>remove_claim</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>remove_claim</servlet-name>
+   <url-pattern>/remove_claim</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+   <servlet-name>admin_login</servlet-name>
+   <servlet-class>admin_login</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>admin_login</servlet-name>
+   <url-pattern>/admin_login</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>viewFeedback</servlet-name>
+   <servlet-class>viewFeedback</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>viewFeedback</servlet-name>
+   <url-pattern>/viewFeedback</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet-mapping>
+   <servlet-name>add_location</servlet-name>
+   <url-pattern>/add_location</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>add_location</servlet-name>
+   <servlet-class>add_location</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+   <servlet-name>add_product</servlet-name>
+   <url-pattern>/add_product</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>add_product</servlet-name>
+   <servlet-class>add_product</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>add_service</servlet-name>
+   <url-pattern>/add_service</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>add_service</servlet-name>
+   <servlet-class>add_service</servlet-class>
+</servlet>
+
+
+
+<servlet-mapping>
+   <servlet-name>delete_service</servlet-name>
+   <url-pattern>/delete_service</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>delete_service</servlet-name>
+   <servlet-class>delete_service</servlet-class>
+</servlet>
+
+
+<servlet-mapping>
+   <servlet-name>delete_location</servlet-name>
+   <url-pattern>/delete_location</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>delete_location</servlet-name>
+   <servlet-class>delete_location</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>delete_product</servlet-name>
+   <url-pattern>/delete_product</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>delete_product</servlet-name>
+   <servlet-class>delete_product</servlet-class>
+</servlet>
+
+
+<servlet>
+   <servlet-name>saverequest</servlet-name>
+   <servlet-class>saverequest</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>saverequest</servlet-name>
+   <url-pattern>/saverequest</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+   <servlet-name>upcoming</servlet-name>
+   <servlet-class>upcoming</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>upcoming</servlet-name>
+   <url-pattern>/upcoming</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+   <servlet-name>add_new_projects</servlet-name>
+   <servlet-class>add_new_projects</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>add_new_projects</servlet-name>
+   <url-pattern>/add_new_projects</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>public_history</servlet-name>
+   <servlet-class>public_history</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>public_history</servlet-name>
+   <url-pattern>/public_history</url-pattern>
+</servlet-mapping>
+
+</web-app>

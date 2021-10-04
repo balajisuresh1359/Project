@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DELETE RECORDS</title>
+	<style >
+		body{
+            background: linear-gradient(to bottom,#ADD8E6,#FFF);
+            font-size: 2.3em;
+        }
+        #btn{
+            /*width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;*/
+            width: 17.5em;
+            font-weight: bolder;
+            height: 3em;
+            border-radius: 0.5em;
+            cursor: pointer;
+            background-color: #5cf;
+        }
+        #btn:hover{
+            background-color: green;
+            color: #FFF;
+        }
+        .form{
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 1%;
+            /* margin-bottom: 45%; */
+        }
+        input{
+            height: 2em;
+        }
+	</style>
+</head>
+<body>
+	<h1 style="text-align: center;">Delete Service Record</h1>
+	<hr>
+	<form action="delete_service" class="form">
+		<fieldset>
+        <legend >DSM:</legend>
+        Location Id&nbsp&nbsp&nbsp&nbsp:<input type="text" name="id" placeholder="ID..." id="id"><br>
+        <input type="submit" name="submit" value="Delete" id="btn">
+    </fieldset>
+	</form>
+</body>
+</html>
